@@ -1,0 +1,1306 @@
+Requirement already satisfied: absl-py==0.7.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (0.7.1)
+Requirement already satisfied: astor==0.8.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.8.0)
+Requirement already satisfied: et-xmlfile==1.0.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (1.0.1)
+Requirement already satisfied: gast==0.2.2 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (0.2.2)
+Requirement already satisfied: google-pasta==0.1.7 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (0.1.7)
+Requirement already satisfied: grpcio==1.21.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (1.21.1)
+Requirement already satisfied: h5py==2.9.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (2.9.0)
+Requirement already satisfied: jdcal==1.4.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 8)) (1.4.1)
+Requirement already satisfied: joblib==0.13.2 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 9)) (0.13.2)
+Requirement already satisfied: Keras-Applications==1.0.8 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 10)) (1.0.8)
+Requirement already satisfied: Keras-Preprocessing==1.1.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 11)) (1.1.0)
+Requirement already satisfied: Markdown==3.1.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 12)) (3.1.1)
+Requirement already satisfied: numpy==1.16.3 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 13)) (1.16.3)
+Requirement already satisfied: openpyxl==2.6.2 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 14)) (2.6.2)
+Requirement already satisfied: pandas==0.24.2 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 15)) (0.24.2)
+Requirement already satisfied: protobuf==3.8.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 16)) (3.8.0)
+Requirement already satisfied: python-dateutil==2.8.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 17)) (2.8.0)
+Requirement already satisfied: pytz==2019.1 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 18)) (2019.1)
+Requirement already satisfied: scikit-learn==0.21.2 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 19)) (0.21.2)
+Requirement already satisfied: scipy==1.3.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 20)) (1.3.0)
+Requirement already satisfied: six==1.12.0 in /usr/lib/python3/dist-packages (from -r requirements.txt (line 21)) (1.12.0)
+Requirement already satisfied: tb-nightly==1.14.0a20190301 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 22)) (1.14.0a20190301)
+Requirement already satisfied: tensorflow==2.0.0a0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 23)) (2.0.0a0)
+Requirement already satisfied: termcolor==1.1.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 24)) (1.1.0)
+Requirement already satisfied: tf-estimator-nightly==1.14.0.dev2019030115 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 25)) (1.14.0.dev2019030115)
+Requirement already satisfied: Werkzeug==0.15.4 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 26)) (0.15.4)
+Requirement already satisfied: xlrd==1.2.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 27)) (1.2.0)
+Requirement already satisfied: xlwt==1.3.0 in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 28)) (1.3.0)
+Requirement already satisfied: pymongo in /home/uzer/.local/lib/python3.7/site-packages (from -r requirements.txt (line 29)) (3.9.0)
+Requirement already satisfied: setuptools>=36 in /usr/lib/python3/dist-packages (from Markdown==3.1.1->-r requirements.txt (line 12)) (40.8.0)
+Requirement already satisfied: wheel>=0.26; python_version >= "3" in /usr/lib/python3/dist-packages (from tb-nightly==1.14.0a20190301->-r requirements.txt (line 22)) (0.32.3)
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+           Cleaning LAS Files
+---------------------------------------------
+
+Parsing File 1 / 11540
+Trimming redundant string in file15668.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file12043.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file8371.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15923.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file18083.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11955.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file10794.las -- Replacing HDIL/ZDL/CN/DSL/DOWN with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file17096.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8639.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11748.las -- Replacing AIT/HILT/DSI/FINAL  with       AIT/HILT/DSI 
+Trimming redundant string in file14455.las -- Replacing DLL/ZDL/CN/SGT/TVD with     DLL/ZDL/CN/SGT 
+Trimming redundant string in file14077.las -- Replacing HDIL/DNL  with     HDIL 
+Trimming redundant string in file13217.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file13587.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13840.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8065.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16497.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file6579.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10350.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13355.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file9201.las -- Replacing MDL/MPD/MDN/SGR/TVD with     MDL/MPD/MDN/SGR 
+Trimming redundant string in file18084.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11918.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file12746.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8551.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14605.las -- Replacing AIT/HILT/DSI/DOWN  with      AIT/HILT/DSI 
+Trimming redundant string in file8112.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10941.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10577.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14805.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9108.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13878.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7086.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file15850.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11553.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file8915.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file9700.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Parsing File 501 / 11540
+Trimming redundant string in file7426.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7762.las -- Replacing HDIL/ZDL/CN/MAC-2/TVD with     HDIL/ZDL/CN/MAC-2 
+Trimming redundant string in file7233.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file6737.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17915.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14819.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file12852.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file6677.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8134.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file10055.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8263.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file14856.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13810.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16740.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8541.las -- Replacing AIT/LDS/APS/HNGS/DNL with     AIT/LDS/APS/HNGS 
+Trimming redundant string in file8994.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file12098.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file9258.las -- Replacing DSI/DNL with     DSI 
+Trimming redundant string in file10498.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file14136.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file15614.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14177.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13599.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file8675.las -- Replacing CBL/FREEPIPE with          CBL 
+Trimming redundant string in file7427.las -- Replacing AIT/LDT/CNT/DNL  with     AIT/LDT/CNT 
+Trimming redundant string in file11671.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file16950.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file14770.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file11688.las -- Replacing DSL/DOWN  with      DSL 
+Trimming redundant string in file8595.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15354.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 1001 / 11540
+Trimming redundant string in file12611.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15944.las -- Replacing CBL/FREEPIPE with          CBL 
+Trimming redundant string in file11913.las -- Replacing HDIL/ZDL/CN/DSL/DOWN  with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file9930.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11610.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file14604.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11868.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file10493.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file13500.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7922.las -- Replacing HRLA/HILT/DSI/DNL with     HRLA/HILT/DSI 
+Trimming redundant string in file13784.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file12857.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file17274.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file14983.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8025.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8860.las -- Replacing HDIL/CN/DOWN  with      HDIL/CN 
+Trimming redundant string in file13246.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12403.las -- Replacing RCBL/CNL/UPPER  with       RCBL/CNL 
+Trimming redundant string in file12483.las -- Replacing AIT/HILT/DSI/TVD with     AIT/HILT/DSI 
+Trimming redundant string in file8947.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file17245.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16853.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file6918.las -- Replacing AIT/HILT/BHC/DNL  with     AIT/HILT/BHC 
+Trimming redundant string in file10229.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10530.las -- Replacing AIT/HILT/TVD with     AIT/HILT 
+Trimming redundant string in file14376.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7006.las -- Replacing AIT/HILT/DSLT/DNL with     AIT/HILT/DSLT 
+Trimming redundant string in file9789.las -- Replacing HDIL/ZDL/CN/DSL/DNL  with     HDIL/ZDL/CN/DSL 
+Trimming redundant string in file10863.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file8917.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17493.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16836.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file17708.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file14190.las -- Replacing CBL/FREEPIPE with          CBL 
+Trimming redundant string in file12350.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file15312.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14899.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7173.las -- Replacing AIT/HILT/DSI/DOWN  with      AIT/HILT/DSI 
+Trimming redundant string in file9072.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file15008.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7759.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file16893.las -- Replacing RCBL/CNL/UPPER  with       RCBL/CNL 
+Parsing File 1501 / 11540
+Trimming redundant string in file14943.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file15554.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13289.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file9655.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file13366.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file15823.las -- Replacing AIT/HILT/LSS/TVD with     AIT/HILT/LSS 
+Trimming redundant string in file12679.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file13276.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9971.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file15661.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file14660.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14464.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file15310.las -- Replacing HRI/SDL/DSN/DNL/BOTTOM  with     HRI/SDL/DSN 
+Trimming redundant string in file8328.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11926.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file9311.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file14750.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file11003.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file14841.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10858.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11339.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file16580.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file9517.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14593.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11813.las -- Replacing HRLA/HILT/DNL with     HRLA/HILT 
+Trimming redundant string in file12978.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file12432.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file10966.las -- Replacing HRI/SDL/DSN/FWS/DNL  with     HRI/SDL/DSN/FWS 
+Trimming redundant string in file8770.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file9343.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11442.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10516.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file16845.las -- Replacing DSI/DNL with     DSI 
+Trimming redundant string in file9677.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7317.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file13260.las -- Replacing AIT/DSLT/DNL  with     AIT/DSLT 
+Trimming redundant string in file8573.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16658.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file17555.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7969.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file11713.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file14124.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file18075.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file7728.las -- Replacing HDIL/ZDL/CN/SGT/DNL with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file7053.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 2001 / 11540
+Trimming redundant string in file6758.las -- Replacing HDIL/ZDL/REV/DOWN  with      HDIL/ZDL/REV 
+Trimming redundant string in file14616.las -- Replacing BHC/DNL  with     BHC 
+Trimming redundant string in file16704.las -- Replacing AIT/HILT/DSI/FINAL  with       AIT/HILT/DSI 
+Trimming redundant string in file13839.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file14993.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14923.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11631.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file9323.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file6890.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file9398.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file7285.las -- Replacing MAI/MFE/MPD/MDN/BOTTOM  with        MAI/MFE/MPD/MDN 
+Trimming redundant string in file8916.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file6656.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file10869.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16352.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file13110.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15528.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file9758.las -- Replacing AIT/CNT/DSI/DOWN with      AIT/CNT/DSI 
+Trimming redundant string in file10221.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file9761.las -- Replacing RCBL/CNL/LOWER  with       RCBL/CNL 
+Trimming redundant string in file10002.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file12348.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file6764.las -- Replacing CALIPER/DOWN with      CALIPER 
+Trimming redundant string in file15351.las -- Replacing HDIL/DOWN with      HDIL 
+Trimming redundant string in file8073.las -- Replacing LWD MEMORY VERTICAL with          LWD MEMORY 
+Trimming redundant string in file10556.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8173.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7166.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15440.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13173.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7390.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file8347.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9779.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file12291.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file11508.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file15576.las -- Replacing PDK/FINAL  with       PDK 
+Trimming redundant string in file17581.las -- Replacing TBI/TBN/TBD/TVD with     TBI/TBN/TBD 
+Trimming redundant string in file16213.las -- Replacing HRLA/HILT/DSI/DNL with     HRLA/HILT/DSI 
+Trimming redundant string in file11625.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file7220.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14885.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17950.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7910.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17432.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file14271.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11929.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file17464.las -- Replacing AIT/LDS/APS/HNGS/DNL with     AIT/LDS/APS/HNGS 
+Trimming redundant string in file10066.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16538.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Parsing File 2501 / 11540
+Trimming redundant string in file13642.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12709.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10307.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file12593.las -- Replacing MAI/MFE/MPD/MDN/SGR/TVD with     MAI/MFE/MPD/MDN/SGR 
+Trimming redundant string in file17075.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10647.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file9448.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10379.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11030.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14109.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8879.las -- Replacing ACRT/SDL/DSN/DOWN  with      ACRT/SDL/DSN 
+Trimming redundant string in file16870.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15319.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file9154.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13485.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file9056.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file18026.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file6837.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12326.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9047.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file7503.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file7364.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8903.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file11537.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16225.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file7866.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16821.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file6863.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17248.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12228.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file8836.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8432.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14044.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9784.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file17448.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8893.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file12424.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9842.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file13947.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16390.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7585.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Parsing File 3001 / 11540
+Trimming redundant string in file15834.las -- Replacing AIT/HILT/DSI/DOWN  with      AIT/HILT/DSI 
+Trimming redundant string in file6636.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file17940.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16069.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9471.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file17198.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16017.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file13309.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file12270.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file10641.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file15456.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file6696.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file11303.las -- Replacing HDIL/ZDL/CN/DAL/DNL with     HDIL/ZDL/CN/DAL 
+Trimming redundant string in file11818.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9798.las -- Replacing HDIL/DOWN with      HDIL 
+Trimming redundant string in file13765.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14298.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7810.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11890.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file15307.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14845.las -- Replacing DLL/LDT/CNT/SGR/TVD with     DLL/LDT/CNT/SGR 
+Trimming redundant string in file6798.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file10655.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file15979.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file7436.las -- Replacing AIT/HILT/SCMT/DOWN with      AIT/HILT/SCMT 
+Trimming redundant string in file8982.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14409.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8695.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file13113.las -- Replacing CBL/FREEPIPE with          CBL 
+Trimming redundant string in file17571.las -- Replacing AIT/HILT/LSS/TVD with     AIT/HILT/LSS 
+Trimming redundant string in file17583.las -- Replacing LWD VERTICAL  with          LWD 
+Trimming redundant string in file12490.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file10608.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file17519.las -- Replacing HDIL/ZDL/CN/SGT/DNL with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file12344.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8124.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file9674.las -- Replacing AIT/LDS/APS/HNGS/DNL with     AIT/LDS/APS/HNGS 
+Trimming redundant string in file14270.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Parsing File 3501 / 11540
+Trimming redundant string in file15653.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file17304.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file14642.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11314.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file13490.las -- Replacing HDIL/ZDL/CN/MAC/TVD with     HDIL/ZDL/CN/MAC 
+Trimming redundant string in file18052.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file17779.las -- Replacing DSI/R4/DNL with     DSI/R4 
+Trimming redundant string in file9938.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file10924.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14611.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file14979.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file12767.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12400.las -- Replacing AIT/HILT/SCMT/DOWN with      AIT/HILT/SCMT 
+Trimming redundant string in file13131.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11192.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file17136.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16895.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13372.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16325.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file10690.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file17315.las -- Replacing AIT/LDS/HNGS/DNL with     AIT/LDS/HNGS 
+Trimming redundant string in file14693.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14486.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8697.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8841.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13936.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file10011.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file13793.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file10457.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13433.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8024.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file14798.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file17219.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13255.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file14176.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11853.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16876.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17902.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12732.las -- Replacing HDIL/ZDL/CN/DSL/DOWN with      HDIL/ZDL/CN/DSL 
+Parsing File 4001 / 11540
+Trimming redundant string in file11912.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12222.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14121.las -- Replacing AIT/HILT/DSLT/DNL with     AIT/HILT/DSLT 
+Trimming redundant string in file13875.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file12103.las -- Replacing LWD LATERAL  with         LWD 
+Trimming redundant string in file12911.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10574.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13953.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file11849.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file11742.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15901.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8451.las -- Replacing AIT/HILT/HNGS/DSI/DNL with     AIT/HILT/HNGS/DSI 
+Trimming redundant string in file12923.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file10149.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file11277.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file12027.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14434.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14851.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14522.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file10664.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file9546.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12473.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file15364.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file10816.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file11387.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file13742.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7514.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file8122.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16050.las -- Replacing DLL/ZDL/CN/SGT/TVD with     DLL/ZDL/CN/SGT 
+Trimming redundant string in file13693.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file18100.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15859.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7370.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file16468.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7596.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file10679.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file14706.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7557.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17349.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13120.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file10692.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16681.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file17622.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file7318.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15193.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16744.las -- Replacing HDIL/CN/DNL with     HDIL/CN 
+Trimming redundant string in file12491.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11566.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12551.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file14544.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file12813.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Parsing File 4501 / 11540
+Trimming redundant string in file15359.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7214.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8359.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file14016.las -- Replacing LWD GR VERTICAL  with          LWD GR 
+Trimming redundant string in file11477.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file9304.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8045.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10971.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14013.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17881.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file16848.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7068.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file14804.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file17597.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file7203.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14224.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file7934.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14905.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14462.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file7549.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file6992.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file10448.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file17772.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file8474.las -- Replacing MAI/MFE/MPD/MDN/RPT  with MAI/MFE/MPD/MDN 
+Trimming redundant string in file16100.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16078.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file13089.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9096.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file6708.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15277.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file16831.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9412.las -- Replacing HRI/SDL/DSN/DNL/TOP  with     HRI/SDL/DSN 
+Trimming redundant string in file17236.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file16572.las -- Replacing HDIL/CN/DNL with     HDIL/CN 
+Trimming redundant string in file15256.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16414.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15853.las -- Replacing RCBL/CNL/LOWER  with       RCBL/CNL 
+Trimming redundant string in file9554.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file6584.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13816.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file16583.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8612.las -- Replacing BHC/DNL  with     BHC 
+Trimming redundant string in file9705.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7959.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file15969.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8734.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11176.las -- Replacing AIT/HILT/DSI/DNL with     AIT/HILT/DSI 
+Trimming redundant string in file8299.las -- Replacing LWD GR VERTICAL with          LWD GR 
+Trimming redundant string in file9144.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file16661.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Parsing File 5001 / 11540
+Trimming redundant string in file9407.las -- Replacing MAI/MFE/MPD/MDN/RPT  with MAI/MFE/MPD/MDN 
+Trimming redundant string in file16077.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8701.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11356.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11077.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7210.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file17154.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file13851.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file11914.las -- Replacing MUDLOG VERTICAL TVD  with          MUDLOG 
+Trimming redundant string in file16844.las -- Replacing HDIL/ZDL/CN/DSL/FINAL  with       HDIL/ZDL/CN/DSL 
+Trimming redundant string in file6565.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7717.las -- Replacing HDIL/ZDL/CN/SGT/DNL with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file9386.las -- Replacing HDIL/ZDL/CN/MAC/DNL with     HDIL/ZDL/CN/MAC 
+Trimming redundant string in file10218.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file14479.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14433.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file10102.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file12662.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15082.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7913.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file17525.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file16594.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file6633.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14056.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16445.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file8609.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file6995.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10883.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11110.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17997.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11875.las -- Replacing LWD LATERAL  with         LWD 
+Trimming redundant string in file17063.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file12787.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12790.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file11653.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17690.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file11353.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7091.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file17126.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17391.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14541.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 5501 / 11540
+Trimming redundant string in file8764.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file17656.las -- Replacing AIT/LDS/APS/HNGS/DNL with     AIT/LDS/APS/HNGS 
+Trimming redundant string in file16706.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file16927.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7844.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12090.las -- Replacing BHC/DNL  with     BHC 
+Trimming redundant string in file8401.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7605.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file11725.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file11845.las -- Replacing AIT/LDT/CNT/DNL  with     AIT/LDT/CNT 
+Trimming redundant string in file16387.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11047.las -- Replacing ACRT/DSN/SDL/DNL with     ACRT/DSN/SDL 
+Trimming redundant string in file13252.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15630.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9342.las -- Replacing AIT/HILT/SCMT/DOWN with      AIT/HILT/SCMT 
+Trimming redundant string in file11645.las -- Replacing AIT/HILT/DOWNLOG with         AIT/HILT 
+Trimming redundant string in file12202.las -- Replacing AIT/HILT/DSI/DNL with     AIT/HILT/DSI 
+Trimming redundant string in file15272.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17637.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12389.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13041.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file9541.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file14472.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file11993.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file13036.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16873.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file16498.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9580.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16210.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8051.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file15520.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file16224.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file10300.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file7057.las -- Replacing AIT/HILT/BHC/DNL  with     AIT/HILT/BHC 
+Trimming redundant string in file7027.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13718.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file14346.las -- Replacing CBL/RPT  with CBL 
+Trimming redundant string in file6804.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12807.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Parsing File 6001 / 11540
+Trimming redundant string in file14871.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11076.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11674.las -- Replacing HDIL/ZDL/SGT/DOWN  with      HDIL/ZDL/SGT 
+Trimming redundant string in file9455.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file12511.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7852.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file17399.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file7493.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10017.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7813.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file6588.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file7375.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14250.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8863.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16871.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7993.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file6989.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10494.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file12954.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file10007.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7353.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file11737.las -- Replacing RAL/FREE PIPE  with           RAL 
+Trimming redundant string in file16800.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file10197.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15430.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11577.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file12248.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file15262.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file14589.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file12337.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7098.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16245.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file11532.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file15695.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file14011.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17602.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file15492.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9747.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16489.las -- Replacing AIT/HILT/DSLT/DNL with     AIT/HILT/DSLT 
+Trimming redundant string in file18020.las -- Replacing HDIL/ZDL/CN/MAC/FINAL  with       HDIL/ZDL/CN/MAC 
+Trimming redundant string in file7669.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file9426.las -- Replacing HRLA/HILT/DNL with     HRLA/HILT 
+Trimming redundant string in file15679.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file12175.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Parsing File 6501 / 11540
+Trimming redundant string in file16980.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8950.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file17934.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8555.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file10361.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file8126.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file10972.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11910.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file9646.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file16395.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13474.las -- Replacing AIT/DSI/TVD with     AIT/DSI 
+Trimming redundant string in file13251.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10104.las -- Replacing DSI/TVD with     DSI 
+Trimming redundant string in file10918.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file17949.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file16065.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file12460.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file14763.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file8009.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11883.las -- Replacing AIT/LDS/APS/HNGS/DNL with     AIT/LDS/APS/HNGS 
+Trimming redundant string in file16295.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7357.las -- Replacing MDL/MPD/MDN/SGR/TVD with     MDL/MPD/MDN/SGR 
+Trimming redundant string in file11167.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file15001.las -- Replacing HRLA/HILT/DSI/DNL with     HRLA/HILT/DSI 
+Trimming redundant string in file11109.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16961.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10415.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8363.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file12181.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12322.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11248.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7823.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file10514.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16922.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14941.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file7334.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13266.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file11775.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7097.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file13923.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14239.las -- Replacing HRLA/HILT/DNL with     HRLA/HILT 
+Parsing File 7001 / 11540
+Trimming redundant string in file9265.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8896.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17007.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7755.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file15102.las -- Replacing AIT/HILT_BOTTOM  with        AIT/HILT 
+Trimming redundant string in file13313.las -- Replacing HDIL/ZDL/DNL  with     HDIL/ZDL 
+Trimming redundant string in file9180.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file12794.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file17074.las -- Replacing MDL/MPD/MDN/MSS/SGR/TVD with     MDL/MPD/MDN/MSS/SGR 
+Trimming redundant string in file12302.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12372.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15748.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file8727.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13499.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file9906.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13869.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10606.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file13242.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file8750.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17032.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11685.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7777.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file8901.las -- Replacing HDIL/ZDL/CN/SGT/DOWN  with      HDIL/ZDL/CN/SGT 
+Trimming redundant string in file16754.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16786.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11280.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10380.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file17333.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17556.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17161.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8290.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16732.las -- Replacing AIT/LSS/TVD with     AIT/LSS 
+Trimming redundant string in file14258.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file7039.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12666.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file6976.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file8643.las -- Replacing HDIL/DNL  with     HDIL 
+Trimming redundant string in file7306.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9383.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14747.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file10988.las -- Replacing HDIL/ZDL/CN/DSL/DOWN with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file9438.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file6754.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9164.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 7501 / 11540
+Trimming redundant string in file10469.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10791.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file10408.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file10878.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file13706.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9403.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10035.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file9028.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file9274.las -- Replacing RST/DNL  with     RST 
+Trimming redundant string in file8433.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file14729.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file12115.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12872.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13579.las -- Replacing MDL/MPD/MDN/SGR/TVD with     MDL/MPD/MDN/SGR 
+Trimming redundant string in file10603.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file15496.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file11841.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file7883.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13475.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file10755.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file6628.las -- Replacing BHC/DNL  with     BHC 
+Trimming redundant string in file15276.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file6808.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file10671.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file10475.las -- Replacing AIT/HILT/DOWNLOG with         AIT/HILT 
+Trimming redundant string in file9876.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file13532.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17254.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13448.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file15664.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file11539.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13280.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12232.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9891.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16461.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file8694.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 8001 / 11540
+Trimming redundant string in file11808.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11460.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file9166.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13846.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file15126.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file16125.las -- Replacing HRLA/HILT/DSI/DNL with     HRLA/HILT/DSI 
+Trimming redundant string in file9300.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file11056.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11113.las -- Replacing HDIL/ZDL/CN/SGT/DNL with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file13984.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file16109.las -- Replacing DLL/LDT/CNL/SGRC/DNL with     DLL/LDT/CNL/SGRC 
+Trimming redundant string in file9694.las -- Replacing AIT/HILT/BHC/DNL  with     AIT/HILT/BHC 
+Trimming redundant string in file14429.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file16482.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17793.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file7335.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file17211.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13986.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file8998.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file6623.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file8082.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file11755.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7680.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file10999.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11080.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file11896.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16789.las -- Replacing AIT/HILT/BHC/DNL  with     AIT/HILT/BHC 
+Trimming redundant string in file14322.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file9547.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17704.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file15487.las -- Replacing RTEX/CN/DNL with     RTEX/CN 
+Trimming redundant string in file8890.las -- Replacing AIT/HILT/TVD with     AIT/HILT 
+Trimming redundant string in file8220.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8798.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Parsing File 8501 / 11540
+Trimming redundant string in file11283.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file10596.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file12321.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file6874.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file11779.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14251.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file8358.las -- Replacing AIT/LDS/APS/R4/DNL with     AIT/LDS/APS/R4 
+Trimming redundant string in file8562.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file15399.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12893.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9808.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12661.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file12456.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file16200.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file17538.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file9191.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file10997.las -- Replacing HDIL/ZDL/CN/SGT/DNL with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file7734.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17983.las -- Replacing TBI/TBN/TBD/DNL  with     TBI/TBN/TBD 
+Trimming redundant string in file7809.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7348.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13345.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15088.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file12686.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16284.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12130.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file17981.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17183.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8424.las -- Replacing MAI/MFE/MPD/MDN/DNL  with     MAI/MFE/MPD/MDN 
+Trimming redundant string in file16059.las -- Replacing CCL/DNL  with     CCL 
+Trimming redundant string in file12267.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7752.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8029.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file15414.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file17316.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file7638.las -- Replacing HRI/DSN/SDL/DOWN  with      HRI/DSN/SDL 
+Trimming redundant string in file17110.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file11427.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file13158.las -- Replacing AIT/HILT/TVD  with     AIT/HILT 
+Trimming redundant string in file17916.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15682.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Parsing File 9001 / 11540
+Trimming redundant string in file10003.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13681.las -- Replacing MAI/MFE/MPD/MDN/TVD with     MAI/MFE/MPD/MDN 
+Trimming redundant string in file13463.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file13761.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file16047.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file13057.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17177.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file15409.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13559.las -- Replacing AIT/HILT/DSI/DOWN  with      AIT/HILT/DSI 
+Trimming redundant string in file16560.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8138.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9165.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file7415.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file10260.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file16506.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file12514.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file8817.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file10226.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file11764.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16654.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file16206.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file18019.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file7261.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15439.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15880.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file11991.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file14934.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file15197.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16711.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file17593.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file9785.las -- Replacing HRI/SDL/DSN/LSS/TVD with     HRI/SDL/DSN/LSS 
+Trimming redundant string in file10940.las -- Replacing AIT/HILT/DSI/DNL with     AIT/HILT/DSI 
+Trimming redundant string in file9113.las -- Replacing LWD VERTICAL  with          LWD 
+Trimming redundant string in file14916.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file13032.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14128.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14826.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file16002.las -- Replacing EWR VERTICAL  with          EWR 
+Trimming redundant string in file8842.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file15909.las -- Replacing RPM/DOWN  with      RPM 
+Trimming redundant string in file13368.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14768.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12702.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file13728.las -- Replacing HRLA/HILT/DSI/HNGS/DNL with     HRLA/HILT/DSI/HNGS 
+Parsing File 9501 / 11540
+Trimming redundant string in file8746.las -- Replacing RTEX/CN/DNL with     RTEX/CN 
+Trimming redundant string in file8091.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8237.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file14129.las -- Replacing CALIPER/DOWN with      CALIPER 
+Trimming redundant string in file10167.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file11869.las -- Replacing AIT/HILT/SCMT/FINAL  with       AIT/HILT/SCMT 
+Trimming redundant string in file17092.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file10234.las -- Replacing HDIL/CN/DOWN  with      HDIL/CN 
+Trimming redundant string in file10343.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file16487.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17257.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file11222.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17537.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14467.las -- Replacing AIT/HILT/DSLT/DNL  with     AIT/HILT/DSLT 
+Trimming redundant string in file13812.las -- Replacing RCBL/LOWER with       RCBL 
+Trimming redundant string in file11565.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8295.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16099.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17616.las -- Replacing AIT/HILT/DSI/DNL  with     AIT/HILT/DSI 
+Trimming redundant string in file8030.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14615.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file17974.las -- Replacing HRI/SDL/DSN/TVD with     HRI/SDL/DSN 
+Trimming redundant string in file15898.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file17946.las -- Replacing HRI/DNL  with     HRI 
+Trimming redundant string in file16321.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file14606.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file14198.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file6682.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file15555.las -- Replacing XMAC/DNL  with     XMAC 
+Trimming redundant string in file12266.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11870.las -- Replacing LWD GR MEMORY LATERAL with         LWD GR MEMORY 
+Trimming redundant string in file11301.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file11224.las -- Replacing CCL/FREE PIPE  with           CCL 
+Trimming redundant string in file8729.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file10151.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file8730.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12622.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15026.las -- Replacing AIT/HILT/DOWN  with      AIT/HILT 
+Trimming redundant string in file10543.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14497.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file9291.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file14813.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file7470.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file7443.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file9735.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9951.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file17512.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14047.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Parsing File 10001 / 11540
+Trimming redundant string in file7269.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17430.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file15134.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9460.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7417.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file17167.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file8600.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file8795.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12867.las -- Replacing ACRT/SDL/DSN/DOWN with      ACRT/SDL/DSN 
+Trimming redundant string in file16057.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file10371.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file16596.las -- Replacing AIT/HILT/DSI/DOWN  with      AIT/HILT/DSI 
+Trimming redundant string in file7554.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8743.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file15097.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10331.las -- Replacing HDIL/CN/DOWN with      HDIL/CN 
+Trimming redundant string in file17773.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file9126.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13349.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12529.las -- Replacing HRI/SDL/DSN/DNL  with     HRI/SDL/DSN 
+Trimming redundant string in file14305.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12837.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8375.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file7692.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12976.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17662.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file9464.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file15926.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file12989.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13872.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file17145.las -- Replacing EWR LATERAL  with         EWR 
+Trimming redundant string in file15536.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9847.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8638.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file18079.las -- Replacing MDL/MPD/MDN/SGR/TVD with     MDL/MPD/MDN/SGR 
+Trimming redundant string in file7801.las -- Replacing MUDLOG TVD  with     MUDLOG 
+Trimming redundant string in file16123.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file15888.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file9718.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Parsing File 10501 / 11540
+Trimming redundant string in file16204.las -- Replacing AIT/HILT/DSI/FINAL  with       AIT/HILT/DSI 
+Trimming redundant string in file9418.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8151.las -- Replacing AIT/HILT/TVD with     AIT/HILT 
+Trimming redundant string in file12785.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file6616.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14012.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file8580.las -- Replacing HDIL/ZDL/CN/DSL/DOWN with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file14200.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file17132.las -- Replacing MUDLOG/TVD  with     MUDLOG 
+Trimming redundant string in file7225.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10152.las -- Replacing ACRT/SDL/SDN/DNL  with     ACRT/SDL/SDN 
+Trimming redundant string in file7599.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file15311.las -- Replacing HDIL/ZDL/CN/DSL/DOWN  with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file15904.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file15711.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15910.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14569.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file13520.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11786.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file9795.las -- Replacing AIT/LDS/APS/DNL with     AIT/LDS/APS 
+Trimming redundant string in file12824.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file11499.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file10211.las -- Replacing HRLA/HILT/HNGS/DNL with     HRLA/HILT/HNGS 
+Trimming redundant string in file18066.las -- Replacing AIT/HILT/BHC/DNL with     AIT/HILT/BHC 
+Trimming redundant string in file13334.las -- Replacing BHC/DNL  with     BHC 
+Trimming redundant string in file13794.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14723.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file10634.las -- Replacing HDIL/ZDL/CN/DSL/DOWN with      HDIL/ZDL/CN/DSL 
+Trimming redundant string in file8565.las -- Replacing HDIL/ZDL/CN/DOWN  with      HDIL/ZDL/CN 
+Trimming redundant string in file8357.las -- Replacing MUDLOG VERTICAL with          MUDLOG 
+Trimming redundant string in file7838.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14638.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file16398.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file17279.las -- Replacing HDIL/ZDL/CN/DSL TVD with     HDIL/ZDL/CN/DSL 
+Trimming redundant string in file9542.las -- Replacing MUDLOG VERTICAL  with          MUDLOG 
+Trimming redundant string in file17312.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11785.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file8409.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Making updates to file13646.las -- Replacing ACRT/DSN/SDL with ACRT/SDL/DSN
+Trimming redundant string in file14216.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file8310.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file14806.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file13215.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Parsing File 11001 / 11540
+Trimming redundant string in file17839.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14677.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file9179.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file12298.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file7743.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file11934.las -- Replacing HDIL/ZDL/CN/DNL  with     HDIL/ZDL/CN 
+Trimming redundant string in file11203.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file14782.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file9944.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Trimming redundant string in file8849.las -- Replacing RAL/FREE PIPE  with           RAL 
+Trimming redundant string in file13678.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15631.las -- Replacing HDIL/ZDL/CN/SGT/DNL  with     HDIL/ZDL/CN/SGT 
+Trimming redundant string in file17503.las -- Replacing HDIL/ZDL/CN/FINAL  with       HDIL/ZDL/CN 
+Trimming redundant string in file16280.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file12154.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8706.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file10459.las -- Replacing ACRT/SDL/DSN/DNL with     ACRT/SDL/DSN 
+Trimming redundant string in file14681.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file14456.las -- Replacing HDIL/ZDL/DOWN  with      HDIL/ZDL 
+Trimming redundant string in file11567.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file11670.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file12089.las -- Replacing MAI/MFE/MPD/MDN/MIDDLE  with        MAI/MFE/MPD/MDN 
+Trimming redundant string in file17908.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file13327.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file12859.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file10618.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file8831.las -- Replacing HDIL/ZDL/DNL with     HDIL/ZDL 
+Trimming redundant string in file13367.las -- Replacing MUDLOG LATERAL  with         MUDLOG 
+Trimming redundant string in file8015.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file8627.las -- Replacing AIT/HILT/DSI/DOWN with      AIT/HILT/DSI 
+Trimming redundant string in file12543.las -- Replacing HDIL/ZDL/DOWN with      HDIL/ZDL 
+Trimming redundant string in file7110.las -- Replacing HDIL/ZDL/CN/DNL with     HDIL/ZDL/CN 
+Trimming redundant string in file6674.las -- Replacing AIT/HILT/DNL  with     AIT/HILT 
+Trimming redundant string in file15513.las -- Replacing MUDLOG LATERAL with         MUDLOG 
+Trimming redundant string in file12492.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file7926.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file7008.las -- Replacing ACRT/SDL/DSN/DNL  with     ACRT/SDL/DSN 
+Trimming redundant string in file14832.las -- Replacing HDIL/ZDL/CN/DOWN with      HDIL/ZDL/CN 
+Trimming redundant string in file7592.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+Trimming redundant string in file8610.las -- Replacing AIT/HILT/DNL with     AIT/HILT 
+Parsing File 11501 / 11540
+Trimming redundant string in file17101.las -- Replacing AIT/HILT/DOWN with      AIT/HILT 
+# of files processed: 11540
+# of files corrected: 958
+---------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 251, in main
+    group_input_wrapper(arguments.input_dir, arguments.group_dir, arguments.curve_list_dir)
+  File "/opt/subs/03-submission-319894/src/main.py", line 170, in group_input_wrapper
+    group_input(input_dir, group_dir, curve_list_dir)
+  File "/opt/subs/03-submission-319894/src/lnam_group.py", line 36, in group_input
+    attrs = utils.get_curve_attrs(original_file_name)
+  File "/opt/subs/03-submission-319894/src/utils.py", line 100, in get_curve_attrs
+    las = parse_las_file(filename)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 184, in parse_las_file
+    result[block], metadata[block] = parse_section(file, block)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 131, in parse_section
+    metadata_line = parse_string(line, block)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 81, in parse_string
+    res = reg.search(res[1].strip()).group().strip()
+AttributeError: 'NoneType' object has no attribute 'group'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+           Group LAS files by LNAM
+---------------------------------------------
+
+Copy file  ../challenge-data/training-data/file10046.las to ./group_dir/AIS_CDS_CDN/file10046.las
+Copy file  ../challenge-data/training-data/file13331.las to ./group_dir/RST/file13331.las
+Copy file  ../challenge-data/training-data/file15668.las to ./group_dir/AIT_HILT_DNL/file15668.las
+Copy file  ../challenge-data/training-data/file17387.las to ./group_dir/LWD_VIBRATION/file17387.las
+Copy file  ../challenge-data/training-data/file14141.las to ./group_dir/AIT_HILT/file14141.las
+Copy file  ../challenge-data/training-data/file16982.las to ./group_dir/DIL_LDT_CNL/file16982.las
+Copy file  ../challenge-data/training-data/file13900.las to ./group_dir/LWD/file13900.las
+Copy file  ../challenge-data/training-data/file7138.las to ./group_dir/BHV/file7138.las
+Copy file  ../challenge-data/training-data/file16977.las to ./group_dir/HDIL_ZDL_CN/file16977.las
+Copy file  ../challenge-data/training-data/file12043.las to ./group_dir/HDIL_ZDL_CN_DNL/file12043.las
+Copy file  ../challenge-data/training-data/file15295.las to ./group_dir/AIT_HILT_DSI/file15295.las
+Copy file  ../challenge-data/training-data/file15581.las to ./group_dir/AIS_CDS_CDN/file15581.las
+Copy file  ../challenge-data/training-data/file11609.las to ./group_dir/HRI_DSN_SDL/file11609.las
+Error parsing file -> ../challenge-data/training-data/file11609.las
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 254, in main
+    arguments.n, arguments.n_output)
+  File "/opt/subs/03-submission-319894/src/main.py", line 187, in analyze_curve_attrs_wrapper
+    analyze_curve_attrs(group_dir, curve_dir, int(n), n_output)
+  File "/opt/subs/03-submission-319894/src/lnam_curve_analysis.py", line 11, in analyze_curve_attrs
+    lnam_dir_mapper = utils.read_json(os.path.join(group_dir, 'mapper.json'))
+  File "/opt/subs/03-submission-319894/src/utils.py", line 63, in read_json
+    with open(filename, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: './group_dir/mapper.json'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+        Analyze LNAM curve attributes
+---------------------------------------------
+
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+        Analyze LNAMs data for each SRVC
+---------------------------------------------
+
+Get logging operator data of file ./group_dir/DIL_LDT_CNL/file16982.las
+Get logging operator data of file ./group_dir/HRI_DSN_SDL/file11609.las
+Get logging operator data of file ./group_dir/HDIL_ZDL_CN/file16977.las
+Get logging operator data of file ./group_dir/AIT_HILT_DNL/file15668.las
+Get logging operator data of file ./group_dir/AIS_CDS_CDN/file10046.las
+Get logging operator data of file ./group_dir/AIS_CDS_CDN/file15581.las
+Get logging operator data of file ./group_dir/LWD/file13900.las
+Get logging operator data of file ./group_dir/LWD_VIBRATION/file17387.las
+Get logging operator data of file ./group_dir/BHV/file7138.las
+Get logging operator data of file ./group_dir/AIT_HILT_DSI/file15295.las
+Get logging operator data of file ./group_dir/HDIL_ZDL_CN_DNL/file12043.las
+Get logging operator data of file ./group_dir/AIT_HILT/file14141.las
+Get logging operator data of file ./group_dir/RST/file13331.las
+Write SRVC LNAM data to ./srvc_dir/SCHLUMBERGER.csv
+Write SRVC LNAM data to ./srvc_dir/HALLIBURTON.csv
+Write SRVC LNAM data to ./srvc_dir/BAKER ATLAS.csv
+Write SRVC LNAM data to ./srvc_dir/PHOENIX SURVEYS INC.csv
+Write SRVC LNAM data to ./srvc_dir/BAKER HUGHES.csv
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+           Generate Truth File
+---------------------------------------------
+
+Parsing File 1 / 11540
+Parsing File 501 / 11540
+Parsing File 1001 / 11540
+Parsing File 1501 / 11540
+Parsing File 2001 / 11540
+Parsing File 2501 / 11540
+Parsing File 3001 / 11540
+Parsing File 3501 / 11540
+Parsing File 4001 / 11540
+Parsing File 4501 / 11540
+Parsing File 5001 / 11540
+Parsing File 5501 / 11540
+Parsing File 6001 / 11540
+Parsing File 6501 / 11540
+Parsing File 7001 / 11540
+Parsing File 7501 / 11540
+Parsing File 8001 / 11540
+Parsing File 8501 / 11540
+Parsing File 9001 / 11540
+Parsing File 9501 / 11540
+Parsing File 10001 / 11540
+Parsing File 10501 / 11540
+Parsing File 11001 / 11540
+Parsing File 11501 / 11540
+Generated the truth file successfully!
+---------------------------------------------
+Traceback (most recent call last):
+  File "/home/uzer/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'param_srvc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 246, in main
+    arguments.predictions_output_file)
+  File "/opt/subs/03-submission-319894/src/main.py", line 100, in run_prediction
+    classifier = create_classifier(training_files_directory)
+  File "/opt/subs/03-submission-319894/src/main.py", line 36, in create_classifier
+    df = get_data(training_files_directory)
+  File "/opt/subs/03-submission-319894/src/data_preparation.py", line 110, in get_data
+    df = clean_data(add_features(make_dataframe(training_files)))
+  File "/opt/subs/03-submission-319894/src/data_preparation.py", line 67, in clean_data
+    df = normalize_srvc(df)
+  File "/opt/subs/03-submission-319894/src/data_preparation.py", line 22, in normalize_srvc
+    df['param_srvc'] = df['param_srvc'].apply(lambda srvc: normalized.get(srvc, srvc))
+  File "/home/uzer/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/uzer/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'param_srvc'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+    Running Prediction Using RandomForest    
+---------------------------------------------
+
+----------------------------------------------
+Parsing .las files in ../challenge-data/training-data...
+----------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 249, in main
+    arguments.analysis_output)
+  File "/opt/subs/03-submission-319894/src/main.py", line 152, in run_prediction_analysis
+    prediction_analysis(truth_file, predictions_output_file, model_dir, analysis_output)
+  File "/opt/subs/03-submission-319894/src/lnam_prediction_analysis.py", line 58, in prediction_analysis
+    predict_data = read_data(prediction_file)
+  File "/opt/subs/03-submission-319894/src/lnam_prediction_analysis.py", line 14, in read_data
+    with open(path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: './01prediction.csv'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+           Running Prediction Analysis
+---------------------------------------------
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 260, in main
+    1 if arguments.model_count is None else arguments.model_count)
+  File "/opt/subs/03-submission-319894/src/main.py", line 217, in train_lnam_wrapper
+    curve_train(training_files_directory, model_dir, int(model_epochs), int(model_count))
+  File "/opt/subs/03-submission-319894/src/lnam_prediction.py", line 168, in curve_train
+    df = parse_files(input_dir)
+  File "/opt/subs/03-submission-319894/src/lnam_prediction.py", line 39, in parse_files
+    las = parse_las_file(filename)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 184, in parse_las_file
+    result[block], metadata[block] = parse_section(file, block)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 131, in parse_section
+    metadata_line = parse_string(line, block)
+  File "/opt/subs/03-submission-319894/src/las_parsing.py", line 81, in parse_string
+    res = reg.search(res[1].strip()).group().strip()
+AttributeError: 'NoneType' object has no attribute 'group'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+----------------------------------------------------------------------
+  Train TensorFlow model based on curve attributes and vendor names   
+----------------------------------------------------------------------
+
+Parsing File 1 / 11540
+Error parsing file -> ../challenge-data/training-data/file11609.las
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 263, in main
+    1 if arguments.model_count is None else arguments.model_count)
+  File "/opt/subs/03-submission-319894/src/main.py", line 232, in predict_lnam_wrapper
+    curve_predict(testing_files_directory, model_dir, int(model_count), predictions_output_file)
+  File "/opt/subs/03-submission-319894/src/lnam_prediction.py", line 256, in curve_predict
+    srvc_tokenizer = joblib.load(os.path.join(model_dir, 'srvc.vocab'))
+  File "/home/uzer/.local/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 590, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './model_dir/srvc.vocab'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------
+  Predict LNAM using TensorFlow model  
+---------------------------------------
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/subs/03-submission-319894/src/main.py", line 329, in <module>
+    main(args)
+  File "/opt/subs/03-submission-319894/src/main.py", line 249, in main
+    arguments.analysis_output)
+  File "/opt/subs/03-submission-319894/src/main.py", line 152, in run_prediction_analysis
+    prediction_analysis(truth_file, predictions_output_file, model_dir, analysis_output)
+  File "/opt/subs/03-submission-319894/src/lnam_prediction_analysis.py", line 44, in prediction_analysis
+    lnams = joblib.load(os.path.join(model_dir, 'lnams.vocab'))
+  File "/home/uzer/.local/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 590, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './model_dir/lnams.vocab'
+
+---------------------------------------------
+           LNAM Workflow Program
+---------------------------------------------
+---------------------------------------------
+           Running Prediction Analysis
+---------------------------------------------
+
